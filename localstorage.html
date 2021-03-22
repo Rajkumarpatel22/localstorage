@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Local Storage</title>
+    <style>
+        
+        div{
+            background-color: rgb(179, 95, 95);
+            width: auto;
+            padding: 50px;
+            margin-left: 0px;
+            margin-top: 75px;
+            text-align: center;
+        }
+        table{
+             margin: 10px;
+            padding: 10px;
+            margin-left: 390px; 
+        }
+        .thead{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+ <form>
+     <h1>Use local storage</h1>
+     <h3>Registration form</h3>
+     <label>Name : </label>&nbsp;
+     <input type="text" id="name1" name="name1" placeholder="enter your name"><br><br>
+     <input type="hidden" id="saveindex">
+     <label>Address : </label>&nbsp;
+     <input type="text" id="address1" name="address1"><br><br>
+
+     <label>Gender : </label>&nbsp;
+     <select name="select" id="select">
+         <option value="male">Male</option>
+         <option value="femeale">Female</option>
+         <option value="custom">Custom</option>
+     </select><br><br>
+     <button  id="submit">Submit</button> <br><input type="button" id="savetaskbtn"value="save change"></input>
+     <input type="reset"> <br>
+
+ </form>
+ 
+
+ <table id="namelist">
+
+ </table>
+</div>
+<script src="local.js"></script>
+</body>
+</html>
